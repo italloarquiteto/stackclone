@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #151515;  
+    color: #fff;  
+    font-family: "Poppins", sans-serif;
+
+}
+
+header{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+header h1{
+    margin: 30px 0 20px 0px;
+}
+
+nav i{
+    color: #f9f9f9;
+    padding: 0 0 0 20px;
+}
+
+p{
+    color: #b0b0b0;
+}
+
+hr{
+    color: #ffffff;
+    margin: 80px 0 50px 30px;
+    width: 80%;
+   
+}
+
+a{
+   text-decoration: none;
+   color: #ffffff;
+   font-weight: 600;
+}
+/*Sessão Apresentação*/
+.sessao-apresentacao{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Young Serif", serif;
+
+}
+
+.sessao-apresentacao h2{
+    font-size: 20px;
+    margin: 0 0 30px 0;
+}
+
+.sessao-apresentacao p{
+    margin: 0 0 30px 0;
+}
+
+.sessao-apresentacao h2 span{
+    border-bottom: 4px solid #5edaa4;
+}
+
+.sessao-apresentacao a{
+    border-bottom: 4px solid #5edaa4;
+    font-size: 15px;
+}
+
+/*Sessão Hard Skills*/
+.sessao-skills{
+    align-items: center;
+    text-align: center;
+    font-family: "Young Serif", serif;
+  }
+
+.sessao-skills h2{
+   font-size: 30px;
+   margin: 0px 0 30px 20px;
+   text-align: left;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.skills i{
+    color: #b0b0b0;
+    margin-right: 15px;
+
+}
+
+.skills-text{
+    text-align: left;
+    font-size: 20px;
+
+}
+
+/*Sessão Projetos */
+.sessao-projetos{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.titulo-projetos{
+    display: inline-flex; 
+    margin-bottom: 30px;
+}
+
+.titulo-projetos h3{
+    font-size: 40px;
+    padding: 0 70px 0 0;  
+    font-family: "Young Serif", serif;
+    margin-left: 20px;
+}
+
+.titulo-projetos a{
+    border-bottom: 5px solid #5edaa4;
+    font-size: 15px;
+}
+
+.projetos img{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px 0;
+
+}
+.projetos h4{
+    font-size: 25px;
+    margin-left: 20px;
+    padding: 0 0 25px 0;
+}
+
+.projetos span{
+    font-size: 20px;
+    margin-left: 20px;
+    }
+
+.projetos a{
+    margin-left: 20px;
+    border-bottom: 4px solid #5edaa4;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+.projetos-links{   
+    margin: 20px 0 20px 0;
+}
+
+
+.background-rodape{
+    background-color: #242424;
+}
+
+.sessao-contato{
+    text-align: justify;
+    margin: 0 15px 0 15px;
+}
+
+.contato{
+    padding: 12px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .sessao-apresentacao img{
+        width: 70%;
+        height: auto;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+
+}
+    
+

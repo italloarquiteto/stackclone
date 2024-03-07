@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!--Fontes google-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/style/style.css">
 </head>
 <body>
     <header>
@@ -19,110 +22,128 @@
             <a href=""><i class="fa-brands fa-whatsapp"></i></a>
         </nav>
     </header>
+
  <!--Sessão apresentação-->
-    <section>
+    <section class="sessao-apresentacao">
+        <img src="assets/img/perfil.png" alt="Foto perfil">
         <div>
             <h2>Prazer em conhecê-lo! <br>
-                Me chamo Sara Abreu
+                Me chamo <span>Sara Abreu</span>.
             </h2>
-            <p>Moro em Minas Gerais e sou estudante de Engenharia de Software. <br>
-                Sou apaixonada por tecnologia.
+            <p>Moro em Minas Gerais<br>
+                Estudante de Eng. de Software<br>
+                Apaixonada por tecnologia
             </p>
-            <a href="https://www.linkedin.com/in/sara-diene-abreu/" target="_blank" rel="noopener">Entre em contato</a>
+            <a href="https://www.linkedin.com/in/sara-diene-abreu/" target="_blank" rel="noopener">ENTRE EM CONTATO</a>
         </div>
-        <img src="assets/img/perfil.png" alt="Foto perfil">
+    
 
     </section>
+
     <hr>
     <!--Sessão Hard Skills-->
-    <section>
+    <section class="sessao-skills">
         <h2>Hard Skills</h2>
-            <div>
-                <i class="fa-brands fa-html5"></i>
-                <div>
+
+            <div class="skills">
+                <i class="fa-brands fa-2x fa-css3-alt"></i>
+                <div div class="skills-text">
+                    <h3>CSS</h3>
+                </div>
+            </div>
+
+            <div class="skills">
+                <i class="fa-brands fa-2x fa-html5"></i>
+                <div div class="skills-text">
                     <h3>HTML</h3>
-                    <p>4 anos experiência</p>
-                </div>
-            </div>
-            <div>
-                <i class="fa-brands fa-css3-alt"></i>
-                <div>
-                    <h3> CSS </h3>
-                    <p>4 anos experiência</p>
-                </div>
-            <div>
-                <i class="fa-brands fa-js"></i>
-                <div>
-                    <h3>JAVASCRIPT</h3>
-                    <p>4 anos experiência</p>
-                </div>
-            </div>
-        </div>
-
-        <div>
-            <div>
-                <i class="fa-brands fa-bootstrap"></i>
-                <div>
-                    <h3>BOOTSTRAP</h3>
-                    <p>4 anos experiência</p>
+          
                 </div>
             </div>
 
-            <div>
-                <i class="fa-brands fa-python"></i>
-                <div>
+            <div class="skills">
+                <i class="fa-brands fa-2x fa-python"></i>
+                <div div class="skills-text">
                     <h3>PYTHON</h3>
-                    <p>4 anos experiência</p>
                 </div>
             </div>
 
-            <div>
-                <i class="fa-solid fa-desktop"></i>
-                <div>
+
+            <div class="skills">
+                <i class="fa-brands fa-2x fa-js"></i>
+                <div div class="skills-text">
+                    <h3>JAVASCRIPT</h3>
+                 
+                </div>
+            </div>
+
+            <div class="skills">
+                <i class="fa-brands fa-2x fa-bootstrap"></i>
+                <div div class="skills-text">
+                    <h3>BOOTSTRAP</h3>
+                </div>
+            </div>
+
+            <div class="skills">
+                <i class="fa-solid fa-2x fa-desktop"></i>
+                <div div class="skills-text">
                     <h3>RESPONSIVIDADE</h3>
-                    <p>4 anos experiência</p>
                 </div>
             </div>
-        </div>
-
     </section>
     <hr>
-
     <!--Sessão Projetos-->
-    <section>
-        <div>
+    <section class="sessao-projetos">
+        <div class="titulo-projetos">
          <h3>Projetos</h3>
-         <a href="https://www.linkedin.com/in/sara-diene-abreu/" target="_blank">Entre em contato</a>
+         <a href="https://www.linkedin.com/in/sara-diene-abreu/" target="_blank"> Entre em contato</a>
         </div>
-        <div>
+        <div class="projetos">
                 <img src="assets/img/img1.jpg" alt="Imagem Projeto 1">
                 <h4>Projeto 1</h4>
                 <span>HTML</span>
                 <span>CSS</span>
+                <div class="projetos-links">
+                    <a href="#">Ver projeto</a>
+                    <a href="#">Ver Código</a>
+                </div>
         </div>
-          <div>
+          <div class="projetos">
                 <img src="assets/img/img4.png" alt="Imagem Projeto 2">
                 <h4>Projeto 2</h4>
                 <span>HTML</span>
                 <span>CSS</span>
+               <div class="projetos-links">
+                    <a href="#">Ver projeto</a>
+                    <a href="#">Ver Código</a>
+               </div>
         </div>
-          <div>
+          <div class="projetos">
                 <img src="assets/img/img2.jpg" alt="Imagem Projeto 3">
                 <h4>Projeto 3</h4>
                 <span>HTML</span>
                 <span>CSS</span>
                 <span>JAVASCRIPT</span>
+                <div class="projetos-links">
+                    <a href="#">Ver projeto</a>
+                    <a href="#">Ver Código</a>
+                </div>
         </div>
-          <div>
+          <div class="projetos">
                 <img src="assets/img/img3.png" alt="Imagem Projeto 4">
                 <h4>Projeto 4</h4>
                 <span>HTML</span>
                 <span>CSS</span>
                 <span>JAVASCRIPT</span>
+                <div class="projetos-links">
+                    <a href="#">Ver projeto</a>
+                    <a href="#">Ver Código</a>
+                </div>
         </div>
+        
     </section>
 <!--Sessão formulário contato-->
-    <section>
+<div class="background-rodape">
+    <section class="sessao-contato">
         <div>
             <h2>Contato</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
@@ -133,7 +154,6 @@
         </div>
         <div>
             <form>
-                
                 <input type="text" id="name" placeholder="Nome" required>
                 <br>
                 <input type="email" id="email" placeholder="Email" required>
@@ -158,5 +178,6 @@
             <span>Desenvolvido por Sara Abreu &copy;</span>
         </div>
     </footer>
+</div>
 </body>
 </html>
